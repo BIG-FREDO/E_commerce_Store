@@ -1,4 +1,5 @@
-package OOP;
+package E_commerce_Store;
+
 import java.util.Scanner;
 public class Main{
 

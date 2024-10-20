@@ -1,4 +1,4 @@
-package OOP;
+package E_commerce_Store;
 
 public class Product{
 

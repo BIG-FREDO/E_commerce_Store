@@ -1,4 +1,5 @@
-package OOP;
+package E_commerce_Store;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -28,13 +29,9 @@ public String getClientName(){
 }
 
 
-public void setClientId(){
-
-	id += (int) (Math.random() * 11);
-}
-
 public int getClientId(){
-	return this.id;
+
+	return id += (int) (Math.random() * 11);
 }
 
 public void addToCart(){
@@ -48,7 +45,7 @@ public void makePayment(){
 Scanner n = new Scanner(System.in);
 
 setClientName();
-System.out.println("Your Id: " + getClientId());
+System.out.println("Your Id: CL" + getClientId());
 
 do{
 System.out.print("\nMake payment: $" );
